@@ -47,6 +47,7 @@
 #'     return(list(kiter = kiter, xi = xi1))
 #'   }
 #' 
+#' @export
 NewtRaphXi <-
 function(xiseed,theta,Y,X,tol=10^(-5))
 {

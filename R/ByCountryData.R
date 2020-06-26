@@ -36,6 +36,7 @@
 #'         Country = uniqueCountry, Country_Data = Country_Data))
 #'   }
 #' 
+#' @export
 ByCountryData <-
 function(alldat=covid19)
 {

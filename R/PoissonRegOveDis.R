@@ -179,6 +179,7 @@
 #'         summpreds = summpreds))
 #'   }
 #' 
+#' @export
 PoissonRegOveDis <-
 function(daycutpred=137,maxday=154,ordfit=5,DayEffect=TRUE,Country="USA",xival=NULL,dat=NULL,alpha=.05,yhighval=NULL,targetval=100000,LegPos=c("topright","left"),ToPlot=TRUE)
 {

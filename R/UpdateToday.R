@@ -27,6 +27,7 @@
 #'     return(countrydata)
 #'   }
 #' 
+#' @export
 UpdateToday <-
 function()
 {

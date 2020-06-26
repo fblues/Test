@@ -52,6 +52,7 @@
 #'     return(list(U = U, H = H, UUt = UUt))
 #'   }
 #' 
+#' @export
 UHFuncs <-
 function(th,xi,Y,X)
 {

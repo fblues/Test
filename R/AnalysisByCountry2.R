@@ -60,6 +60,7 @@
 #'         dailydeaths = dailydeaths, cumdeaths = cumdeaths))
 #'   }
 #' 
+#' @export
 AnalysisByCountry2 <-
 function(CountryAbbrev="USA",alldata=countrydata,fval=.14,lwdval1=5,lwdval2=3,cexval=.9,toplot=F,lowdeaths=1)
 {

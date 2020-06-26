@@ -49,6 +49,7 @@
 #'         Hinv = Hinv, UUt = UUt, XiCov = XiCov))
 #'   }
 #' 
+#' @export
 NewtRaph <-
 function(thseed,xiseed,Y,X,tol=10^(-5))
 {

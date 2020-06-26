@@ -68,6 +68,7 @@
 #'             PILow, PIHig, X0)))
 #'   }
 #' 
+#' @export
 OveDisPoiReg <-
 function(Y,X,X0=NULL,xival=NULL,alpha=.05,tol=10^(-5))
 {

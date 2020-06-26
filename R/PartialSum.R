@@ -27,6 +27,7 @@
 #'     return(y)
 #'   }
 #' 
+#' @export
 PartialSum <-
 function(x)
 {
