@@ -1,0 +1,130 @@
+* using log directory ‘/Users/fblues/Google Drive/Research/Covid_2019/PKG/ODPR.COVID.19.Rcheck’
+* using R version 4.0.2 (2020-06-22)
+* using platform: x86_64-apple-darwin17.0 (64-bit)
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘ODPR.COVID.19/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘ODPR.COVID.19’ version ‘0.9’
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: ‘T. Kim <yourfault@somewhere.net>’
+
+New submission
+
+The Title field should be in title case. Current version is:
+‘Prediction region based on over-dispersed Poisson Regression’
+In title case that is:
+‘Prediction Region Based on over-Dispersed Poisson Regression’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘ODPR.COVID.19’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking use of S3 registration ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: ‘httr’
+'library' or 'require' calls in package code:
+  ‘httr’ ‘utils’
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+AnalysisByCountry2: no visible binding for global variable
+  ‘countrydata’
+AnalysisByCountry2: no visible global function definition for
+  ‘close.screen’
+ByCountryData: no visible binding for global variable ‘covid19’
+OveDisPoiReg: no visible global function definition for ‘glm’
+OveDisPoiReg: no visible global function definition for ‘poisson’
+OveDisPoiReg: no visible global function definition for ‘qnorm’
+PoissonRegOveDis: no visible global function definition for
+  ‘close.screen’
+PoissonRegOveDis: no visible global function definition for
+  ‘model.matrix’
+PoissonRegOveDis: no visible global function definition for ‘points’
+PoissonRegOveDis: no visible global function definition for ‘matlines’
+PoissonRegOveDis: no visible global function definition for ‘abline’
+PoissonRegOveDis: no visible global function definition for ‘lines’
+UpdateToday: no visible global function definition for ‘GET’
+UpdateToday: no visible global function definition for ‘authenticate’
+UpdateToday: no visible global function definition for ‘write_disk’
+UpdateToday: no visible global function definition for ‘read.csv’
+Undefined global functions or variables:
+  GET abline authenticate close.screen countrydata covid19 glm lines
+  matlines model.matrix points poisson qnorm read.csv write_disk
+Consider adding
+  importFrom("graphics", "abline", "close.screen", "lines", "matlines",
+             "points")
+  importFrom("stats", "glm", "model.matrix", "poisson", "qnorm")
+  importFrom("utils", "read.csv")
+to your NAMESPACE file.
+* checking Rd files ... NOTE
+prepare_Rd: AnalysisByCountry2.Rd:44-46: Dropping empty section \note
+prepare_Rd: AnalysisByCountry2.Rd:97-99: Dropping empty section \author
+prepare_Rd: AnalysisByCountry2.Rd:91-93: Dropping empty section \references
+prepare_Rd: AnalysisByCountry2.Rd:94-96: Dropping empty section \seealso
+prepare_Rd: ByCountryData.Rd:21-23: Dropping empty section \note
+prepare_Rd: ByCountryData.Rd:51-53: Dropping empty section \references
+prepare_Rd: ByCountryData.Rd:54-56: Dropping empty section \seealso
+prepare_Rd: ConvertToList.Rd:21-23: Dropping empty section \note
+prepare_Rd: ConvertToList.Rd:53-55: Dropping empty section \references
+prepare_Rd: ConvertToList.Rd:56-58: Dropping empty section \seealso
+prepare_Rd: NewtRaph.Rd:29-31: Dropping empty section \note
+prepare_Rd: NewtRaph.Rd:68-70: Dropping empty section \references
+prepare_Rd: NewtRaph.Rd:71-73: Dropping empty section \seealso
+prepare_Rd: NewtRaphXi.Rd:29-31: Dropping empty section \note
+prepare_Rd: NewtRaphXi.Rd:66-68: Dropping empty section \references
+prepare_Rd: NewtRaphXi.Rd:69-71: Dropping empty section \seealso
+prepare_Rd: ODPR.COVID.19-package.Rd:26-28: Dropping empty section \references
+prepare_Rd: ODPR.COVID.19-package.Rd:29-31: Dropping empty section \seealso
+prepare_Rd: ODPR.COVID.19-package.Rd:22-25: Dropping empty section \examples
+prepare_Rd: OveDisPoiReg.Rd:31-33: Dropping empty section \note
+prepare_Rd: OveDisPoiReg.Rd:88-90: Dropping empty section \references
+prepare_Rd: OveDisPoiReg.Rd:91-93: Dropping empty section \seealso
+prepare_Rd: PartialSum.Rd:21-23: Dropping empty section \note
+prepare_Rd: PartialSum.Rd:42-44: Dropping empty section \references
+prepare_Rd: PartialSum.Rd:45-47: Dropping empty section \seealso
+prepare_Rd: PoissonRegOveDis.Rd:56-58: Dropping empty section \note
+prepare_Rd: PoissonRegOveDis.Rd:218-220: Dropping empty section \references
+prepare_Rd: PoissonRegOveDis.Rd:221-223: Dropping empty section \seealso
+prepare_Rd: UHFuncs.Rd:27-29: Dropping empty section \note
+prepare_Rd: UHFuncs.Rd:70-72: Dropping empty section \references
+prepare_Rd: UHFuncs.Rd:73-75: Dropping empty section \seealso
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+'library' or 'require' call not declared from: ‘httr’
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 2 WARNINGs, 4 NOTEs
